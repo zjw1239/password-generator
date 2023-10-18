@@ -27,7 +27,8 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  padding-top: 0px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   color: darkturquoise;
 }
 
@@ -121,6 +122,9 @@ button[disabled] {
 }
 
 @media (max-width: 690px) {
+  header {
+    padding-top: 75px;
+  }
   .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
@@ -133,6 +137,9 @@ button[disabled] {
 }
 
 @media (max-width: 500px) {
+  header {
+    padding-top: 50px;
+  }
   .btn {
     font-size: 0.8rem;
   }
