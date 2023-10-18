@@ -17,6 +17,7 @@ body {
   background-color: #f9fbfd;
 }
 
+/* entire background behind card*/
 .wrapper {
   background-color: dimgray;  
   padding-top: 30px;
@@ -31,6 +32,7 @@ header {
   color: darkturquoise;
 }
 
+/*card holding input box and button*/
 .card {
   background-color: lightgray;
   border-radius: 5px;
@@ -73,6 +75,7 @@ header {
   clear: both;
 }
 
+/*generate password button*/
 .btn {
   border: none;
   background-color: darkturquoise;
@@ -98,6 +101,7 @@ button[disabled] {
   float: right;
 }
 
+/*input box*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
