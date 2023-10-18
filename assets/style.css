@@ -113,7 +113,8 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 6px inset #c0c7cf;
+  border-color: darkturquoise;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
