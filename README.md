@@ -16,7 +16,7 @@ Theres two reasons for me making this page. The first reason being for a class c
 
 - challenge starter code with customized options added/ changed. Started with some styling as well as HTML.
 
-### CSS reset came from:
+### CSS reset:
 
 - https://www.joshwcomeau.com/css/custom-css-reset/
 
