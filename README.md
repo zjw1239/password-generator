@@ -40,4 +40,8 @@ Thank you for visiting this project! I will hopefully be making improvements slo
 
 ## Screenshot of launched page
 
+![Alt text](assets/screencapture-zjw1239-github-io-password-generator-2023-10-22-12_49_40.png)
+
 ## Link to launched site
+
+https://zjw1239.github.io/password-generator/
