@@ -5,11 +5,11 @@ var generateBtn = document.querySelector("#generate");
     function getPassword() {
     
 // Allowed password variables
-    var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    var lowercase = "abcdefghijklmnopqrstuvwxyz"
-    var numbers = "0123456789"
-    var specChars = "!@#$%^&*()-=+<>?/|':[]{}"
-    var multiple = "";
+    var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var lowercase = "abcdefghijklmnopqrstuvwxyz";
+    var numbers = "0123456789";
+    var specChars = "!@#$%^&*()-=+<>?/|':[]{}";
+    var passChars = "";
     var random = "";
 
 // Allows user to select a password length
@@ -30,16 +30,25 @@ var generateBtn = document.querySelector("#generate");
     var specs = confirm("Your password will include Special Characters.");
     }
 
-    if (bigs) {multiple += uppercase;}
-    if (smalls) {multiple += lowercase;}
-    if (nums) {multiple += numbers;}
-    if (specs) {multiple += specChars;}
+    if (bigs) {
+        passChars += uppercase;
+    } 
+
+    if (smalls) {
+        passChars += lowercase;
+    }
+    if (nums) {
+        passChars += numbers;
+    }
+    if (specs) {
+        passChars += specChars;
+    }
 
 // For loop if input is not met. 
     for (i = 0; i < keyLength; i++) {
 
 // Password generated
-        random += multiple[Math.floor(Math.random() * multiple.length)]
+        random += passChars[Math.floor(Math.random() * passChars.length)]
     }
     return(random);
 }
